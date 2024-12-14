@@ -25,6 +25,5 @@ def read_cookbook(recipes_dic):
                     except ValueError:
                         print(f"Ошибка в строке: {line}")
                         continue  # Пропускаем некорректную строку
-    print(cookbook)
-
+    
     return cookbook
